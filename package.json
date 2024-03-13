@@ -41,7 +41,7 @@
     "mongoose": "5.1.7",
     "morgan": "1.9.1",
     "aidpcore-lib": "aidpproject/aidpcore-lib",
-    "aidpcore-message": "aidpproject/aidpcoin-message",
+    "aidpcore-message": "aidpproject/aidpcore-message",
     "request": "2.88.0"
   },
   "peerDependencies": {},
