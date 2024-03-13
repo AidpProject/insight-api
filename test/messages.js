@@ -3,12 +3,12 @@
 var should = require('should');
 var sinon = require('sinon');
 var MessagesController = require('../lib/messages');
-var ravencore = require('ravencore-lib');
+var aidpcore = require('aidpcore-lib');
 var _ = require('lodash');
 
 describe('Messages', function() {
 
-  var privateKey = ravencore.PrivateKey.fromWIF('cQwApHAg8hw9AZuxiU4a7g9kFWdaemhPxVZXWiAKgJTx6dPP32fN');
+  var privateKey = aidpcore.PrivateKey.fromWIF('cQwApHAg8hw9AZuxiU4a7g9kFWdaemhPxVZXWiAKgJTx6dPP32fN');
   var address = 'mswTKCE2tYSFvUNnNPBKZfeNmugYL1rZMx';
   var badAddress = 'mswTKCE2tYSFvUNnNPBKZfeNmuhYL1rZMm';
   var signature = 'IA4sIwhcLMPPsYtB8tN0PI+aQuwDyl+/4Ksa89llNSAeVaRdMyyIxpo1H5N3GHbPl9LQqZ7CvaokeQgsOkK9fn4=';

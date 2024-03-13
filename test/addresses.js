@@ -3,7 +3,7 @@ var sinon = require('sinon');
 var should = require('should');
 var AddressController = require('../lib/addresses');
 var _ = require('lodash');
-var ravencore = require('ravencore-lib');
+var aidpcore = require('aidpcore-lib');
 
 var txinfos = {
   totalCount: 2,
@@ -329,7 +329,7 @@ describe('Addresses', function() {
 
       var node = {
         services: {
-          ravend: {
+          aidpd: {
             height: 534230
           }
         },
@@ -393,7 +393,7 @@ describe('Addresses', function() {
 
       var node = {
         services: {
-          ravend: {
+          aidpd: {
             height: 534230
           }
         },
@@ -551,7 +551,7 @@ describe('Addresses', function() {
       var node = {
         getAddressHistory: sinon.stub().callsArgWith(2, null, txinfos2),
         services: {
-          ravend: {
+          aidpd: {
             height: 534232
           }
         },
@@ -688,7 +688,7 @@ describe('Addresses', function() {
       var node = {
         getAddressHistory: sinon.stub().callsArgWith(2, null, txinfos2),
         services: {
-          ravend: {
+          aidpd: {
             height: 534232
           }
         },

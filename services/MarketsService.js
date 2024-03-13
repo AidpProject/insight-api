@@ -32,7 +32,7 @@ util.inherits(MarketsService, EventEmitter);
 MarketsService.prototype._updateInfo = function() {
     var self = this;
     return request.get({
-        url: 'https://api.coinmarketcap.com/v1/ticker/ravencoin',
+        url: 'https://api.coinmarketcap.com/v1/ticker/aidpcoin',
         json: true
     }, function (err, response, body) {
 
