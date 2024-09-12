@@ -6,11 +6,11 @@
 ### Statistics
 * [Total 24h](#total-24h-statistic)
 * [Transactions](#transactions-statistic)
-* [NetHash](#nethash-statistic)
 * [Pools](#pools-statistic)
 * [Fees](#fees-statistic)
 * [Outputs](#outputs-statistic)
 * [Difficulty](#difficulty-statistic)
+* [NetHash](#nethash-statistic)
 * [Total Supply](#total-supply-statistic)
 
 A Aidpcoin blockchain REST and web socket API service for [Aidpcore Node](https://github.com/AidpProject/aidpcore-node).
